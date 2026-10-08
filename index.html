@@ -13,6 +13,8 @@
       min-height: 100vh;
       min-height: 100svh;
       display: grid;
+      grid-template-rows: 1fr auto;
+      gap: 24px;
       place-items: center;
       padding: 24px;
       background: #f3f5f9;
@@ -62,6 +64,13 @@
 
     .button:hover { background: #1b46aa; }
     .button:focus-visible { outline: 3px solid #182238; outline-offset: 4px; }
+
+    footer {
+      color: #526078;
+      font-size: 14px;
+      line-height: 1.5;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -70,5 +79,6 @@
     <p>Всё начинается с простой идеи. Эта страница — первый шаг к тому, чтобы превратить её в&nbsp;что-то полезное.</p>
     <a class="button" href="./">На главную</a>
   </main>
+  <footer>Тестовый проект 2026</footer>
 </body>
 </html>
